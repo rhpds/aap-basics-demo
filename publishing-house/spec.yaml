@@ -74,9 +74,15 @@ approval_checklist:
   content:
     prerequisites_verifiable: false
     assessment_strategy: ''
-    catalog_gap: ''
-    design_overview: ''
-    module_summaries: []
+    catalog_gap: 'Existing catalog items are all 90-minute hands-on workshops that cover the full AAP stack including advanced topics (Jinja2, RBAC, surveys, workflows). This demo fills a gap for a shorter (60-minute), presenter-led format targeting developers new to automation who need a focused basics overview without the depth or time commitment of a full workshop.'
+    design_overview: 'A 60-minute presenter-led demo of Red Hat Ansible Automation Platform for beginner developers new to automation. The presenter walks through AAP core components, creates and executes a simple playbook, and configures a job template — giving developers a focused basics overview without the depth or time commitment of a full hands-on workshop.'
+    module_summaries:
+      - title: 'Introduction to AAP'
+        overview: 'Introduces AAP core components and architecture through a live UI tour of Automation Controller, covering pre-configured inventory, credentials, and projects. Participants observe how platform components fit together before any automation runs.'
+      - title: 'Creating Playbooks'
+        overview: 'Walks through authoring a minimal Ansible playbook, syncing a Git-backed project in Automation Controller, and observing real-time job output. Participants see the full playbook creation workflow from code to execution.'
+      - title: 'Job Templates'
+        overview: 'Demonstrates creating a job template by composing the project, inventory, and credential from earlier modules, then launching it. Participants see how job templates standardize and schedule automation runs.'
     rcars_overlap_pct: 100
     rcars_top_matches:
       - title: 'Ansible Workshop - Ansible for Red Hat Enterprise Linux (90 mins)'
