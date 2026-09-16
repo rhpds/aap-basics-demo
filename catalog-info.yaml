@@ -1,35 +1,33 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: {{ values.project_name }}
-  title: {{ values.project_name }}
-  description: "{{ values.project_description | replace('\r', '') | replace('\n', ' ') | replace('\t', ' ') | replace('\\', '\\\\') | replace('"', '\\"') }}"
+  name: aap-basics-demo
+  title: aap-basics-demo
+  description: Ansible Automation Platform hands-on demo showcasing core capabilities
   annotations:
-    # Publishing House lifecycle annotations (workflow will update these)
-    ph.rhdp.io/content-type: {{ values.content_type }}
-    ph.rhdp.io/deployment-mode: {{ values.deployment_mode }}
-    ph.rhdp.io/github-user: {{ values.github_user }}
-    ph.rhdp.io/owner: {{ values.user_email }}
-
-    # TechDocs
+    ph.rhdp.io/content-type: demo
+    ph.rhdp.io/deployment-mode: rhdp_published
+    ph.rhdp.io/github-user: treddy
+    ph.rhdp.io/owner: treddy@redhat.com
     backstage.io/techdocs-ref: dir:.
-
-    # Repository annotations
-    github.com/project-slug: {{ values.repo_url | replace('https://github.com/', '') }}
+    github.com/project-slug: rhpds/aap-basics-demo
   tags:
-    - publishing-house
-    - {{ values.content_type }}
-    - {{ values.deployment_mode | replace('_', '-') }}
+  - publishing-house
+  - demo
+  - rhdp-published
   links:
-    - url: {{ values.repo_url }}
-      title: Repository
-      icon: github
-    - url: {{ values.devspaces_url }}#{{ values.repo_url }}
-      title: Open in DevSpaces
-      icon: catalog
-    - url: {{ values.central_api_url }}
-      title: Central
-      icon: dashboard
+  - url: https://github.com/rhpds/aap-basics-demo
+    title: Repository
+    icon: github
+  - url: https://devspaces.apps.ocpv-infra01.dal12.infra.demo.redhat.com#https://github.com/rhpds/aap-basics-demo
+    title: Open in DevSpaces
+    icon: catalog
+  - url: https://central-api-publishing-house.apps.ocpv-infra01.dal12.infra.demo.redhat.com
+    title: Central
+    icon: dashboard
+  - url: https://redhat.atlassian.net/browse/RHDPCD-1840
+    title: Jira Epic
+    icon: bugs
 spec:
   type: content
   lifecycle: experimental
