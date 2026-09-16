@@ -12,17 +12,8 @@ project:
   workflow_id: 21c5fd34-6a91-4b20-b59e-de98a13ee413
 spec:
   title: 'AAP Basics Demo'
-  learning_objectives:
-    - 'Understand AAP architecture'
-    - 'Create and run playbooks'
-    - 'Configure job templates'
-  modules:
-    - title: 'Introduction to AAP'
-      duration_minutes: 0
-    - title: 'Creating Playbooks'
-      duration_minutes: 0
-    - title: 'Job Templates'
-      duration_minutes: 0
+  learning_objectives: []
+  modules: []
   environment:
     platform: ''
     topology: ''
