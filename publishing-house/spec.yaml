@@ -77,8 +77,27 @@ approval_checklist:
     catalog_gap: ''
     design_overview: ''
     module_summaries: []
-    rcars_overlap_pct: null
-    rcars_top_matches: []
+    rcars_overlap_pct: 100
+    rcars_top_matches:
+      - title: 'Ansible Workshop - Ansible for Red Hat Enterprise Linux (90 mins)'
+        ci_name: 'zt-ansiblebu.zt-ans-bu-rhel-90.prod'
+        url: 'https://catalog.demo.redhat.com/catalog?item=zt-ansiblebu.zt-ans-bu-rhel-90.prod'
+        relevance_score: 100
+        why_it_fits: 'This workshop directly covers all three requested learning objectives — AAP core components and architecture, creating and running playbooks, and configuring job templates — in a beginner-friendly, hands-on format that progresses from CLI playbook authoring to the AAP web UI.'
+        workloads: []
+      - title: 'Ansible Workshop - Ansible for Red Hat Enterprise Linux'
+        ci_name: 'zt-ansiblebu.zt-ans-bu-rhel.prod'
+        url: 'https://catalog.demo.redhat.com/catalog?item=zt-ansiblebu.zt-ans-bu-rhel.prod'
+        relevance_score: 100
+        why_it_fits: 'This workshop directly covers all three requested learning objectives — AAP core components and architecture, creating and running playbooks, and configuring job templates — in a beginner-friendly, hands-on format.'
+        workloads: []
+      - title: 'Introduction to Ansible Automation Controller 2.7'
+        ci_name: 'zt-ansiblebu.zt-ans-bu-intro-controller-aap25.prod'
+        url: 'https://catalog.demo.redhat.com/catalog?item=zt-ansiblebu.zt-ans-bu-intro-controller-aap25.prod'
+        relevance_score: 93
+        why_it_fits: 'This workshop directly covers AAP core components and architecture through hands-on exploration of Automation Controller 2.7, and explicitly includes creating and running job templates — closely matching all three learning objectives.'
+        workloads: []
+    catalog_gap: 'Existing catalog items are all 90-minute hands-on workshops that cover the full AAP stack including advanced topics (Jinja2, RBAC, surveys, workflows). This demo fills a gap for a shorter (60-minute), presenter-led format targeting developers new to automation who need a focused basics overview without the depth of a full workshop.'
     rejections: []
   infra:
     peak_environments: null
