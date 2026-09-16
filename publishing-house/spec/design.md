@@ -55,13 +55,13 @@ Beginner
 
 ## Infrastructure Requirements
 
-- **Cloud provider:** TBD — confirmed in infrastructure phase
-- **Cluster type:** TBD — confirmed in infrastructure phase
-- **OCP version:** TBD — confirmed in infrastructure phase
-- **Topology:** TBD — confirmed in infrastructure phase
-- **Sizing:** TBD — confirmed in infrastructure phase
-- **Automation approach:** TBD — confirmed in infrastructure phase
-- **AI/MaaS:** TBD — confirmed in infrastructure phase
-- **External services:** TBD — confirmed in infrastructure phase
-- **AAP version:** TBD — confirmed in infrastructure phase
-- **Non-GA products:** TBD — confirmed in infrastructure phase
+- **Cloud provider:** CNV
+- **Cluster type:** N/A (RHEL VM-based, not OCP)
+- **OCP version:** N/A
+- **Topology:** Shared-cluster (single presenter environment)
+- **Sizing:** 1 AAP Automation Controller (8 vCPU, 32GB RAM); 2 RHEL managed nodes (2 vCPU, 8GB RAM each)
+- **Automation approach:** Ansible
+- **AI/MaaS:** None
+- **External services:** registry.redhat.io, github.com, cdn.redhat.com
+- **AAP version:** 2.5
+- **Non-GA products:** None (all products are GA)
