@@ -17,12 +17,18 @@ spec:
     - 'Create and run playbooks'
     - 'Configure job templates'
   modules:
-    - title: 'Introduction to AAP'
-      duration_minutes: 0
-    - title: 'Creating Playbooks'
-      duration_minutes: 0
-    - title: 'Job Templates'
-      duration_minutes: 0
+    - id: module-01
+      title: 'Introduction to AAP'
+      duration_minutes: 20
+      status: not_started
+    - id: module-02
+      title: 'Creating Playbooks'
+      duration_minutes: 20
+      status: not_started
+    - id: module-03
+      title: 'Job Templates'
+      duration_minutes: 20
+      status: not_started
   environment:
     platform: ''
     topology: ''
@@ -66,7 +72,7 @@ tracking:
   pause_reason: null
 approval_checklist:
   content:
-    prerequisites_verifiable: null
+    prerequisites_verifiable: false
     assessment_strategy: ''
     catalog_gap: ''
     design_overview: ''
