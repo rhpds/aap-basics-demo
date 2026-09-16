@@ -53,6 +53,10 @@ Beginner
 
 **Automation needed:** Yes — an AAP instance with Automation Controller must be provisioned, with a pre-configured inventory, credential store, and Git-backed project. No per-student provisioning — this is a single shared presenter environment.
 
+## Assessment Strategy (Optional)
+
+Not applicable — this is a presenter-led demo with no automated verification or solve/validate steps.
+
 ## Infrastructure Requirements
 
 - **Cloud provider:** CNV
