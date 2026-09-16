@@ -16,7 +16,13 @@ spec:
     - 'Understand AAP architecture'
     - 'Create and run playbooks'
     - 'Configure job templates'
-  modules: []
+  modules:
+    - title: 'Introduction to AAP'
+      duration_minutes: 0
+    - title: 'Creating Playbooks'
+      duration_minutes: 0
+    - title: 'Job Templates'
+      duration_minutes: 0
   environment:
     platform: ''
     topology: ''
