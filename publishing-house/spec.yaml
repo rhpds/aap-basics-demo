@@ -9,10 +9,14 @@ project:
   automation_type: ansible
   description: Ansible Automation Platform hands-on demo showcasing core capabilities
   jira_ticket: RHDPCD-1840
+  preintake_outline: "Module 1: Introduction to AAP\nModule 2: Creating Playbooks\nModule 3: Job Templates"
   workflow_id: 21c5fd34-6a91-4b20-b59e-de98a13ee413
 spec:
-  title: ''
-  learning_objectives: []
+  title: 'AAP Basics Demo'
+  learning_objectives:
+    - 'Understand AAP architecture'
+    - 'Create and run playbooks'
+    - 'Configure job templates'
   modules: []
   environment:
     platform: ''
